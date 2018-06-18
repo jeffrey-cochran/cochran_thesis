@@ -1,3 +1,3 @@
-function a = add_stuff(b, c)
-    a = b + c;
+function x = add_stuff(A, b)
+    x = gmres(A,b);
 end
